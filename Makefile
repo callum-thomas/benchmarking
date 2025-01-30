@@ -1,4 +1,4 @@
-.PHONY: run-go
+.PHONY: run-go run-nestjs
 
 run-go:
 	docker build -t go-service ./go && docker run -p 8080:8080 go-service
